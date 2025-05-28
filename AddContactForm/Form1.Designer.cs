@@ -34,6 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.BtnLuu_Click = new System.Windows.Forms.Button();
             this.btnThemLienHe_Click = new System.Windows.Forms.Button();
+            this.label = new System.Windows.Forms.Label();
+            this.txt_Email = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtHoTen
@@ -89,11 +91,29 @@
             this.btnThemLienHe_Click.UseVisualStyleBackColor = true;
             this.btnThemLienHe_Click.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.Location = new System.Drawing.Point(368, 62);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(41, 16);
+            this.label.TabIndex = 6;
+            this.label.Text = "Email";
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.Location = new System.Drawing.Point(415, 59);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(100, 22);
+            this.txt_Email.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txt_Email);
+            this.Controls.Add(this.label);
             this.Controls.Add(this.btnThemLienHe_Click);
             this.Controls.Add(this.BtnLuu_Click);
             this.Controls.Add(this.label2);
@@ -116,6 +136,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnLuu_Click;
         private System.Windows.Forms.Button btnThemLienHe_Click;
+        private System.Windows.Forms.Label label;
+        private System.Windows.Forms.TextBox txt_Email;
     }
 }
 
